@@ -24,6 +24,26 @@ i {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.iconBlue{
+	color: #0AA0FF;
+	text-shadow: -0.04em -0.04em  0.04em #024D7C;	
+}
+
+.iconBlueSelected {
+	color: #004D88;
+		
+}
+
+.iconGray {
+	color: #73797C;
+}
+
+.iconGrayShadow {
+	color: #CACACA;
+	text-shadow: -0.02em -0.08em  0.04em #A2A2A2;
+}
+
+
 .i-menu:before {
 	content: "\e9bd";
 }
@@ -233,25 +253,53 @@ i {
 	content: "\e9cc";
 }
 .i-news:before {
-	content: "\e91a";
-	
+	content: "\e91a";	
 }
 
-.iconBlue{
-	color: #0AA0FF;
-	text-shadow: -0.04em -0.04em  0.04em #024D7C;	
+.i-delete_inline:before {
+	content: "\e05f";
+}
+.i-indent:before {
+	content: "\e060";
+}
+.i-dedent:before {
+	content: "\e061";
+}
+.i-list:before {
+	content: "\e9bb";
+}
+.i-more:before {
+	content: "\e29a";
+	color:  #0654BA;
+}	
+.i-ok:before {
+	content: "\ea10";
+	color: #5BA731;
 }
 
-.iconBlueSelected {
-	color: #004D88;
-		
+.i-wizard_blank:before {
+	content: "\ea56";
+	color: #BBBBBB;
+}
+.i-wizard_done .path1:before {
+	content: "\e370";
+	color: rgba(90, 167, 48, 0.25);
+}
+.i-wizard_done .path2:before {
+	content: "\e371";
+	margin-left: -1em;
+	color: #5BA731;
 }
 
-.iconGray {
-	color: #73797C;
+.i-email:before {
+	content: "\f0e0";
+}
+.i-clock:before {
+	content: "\e94e";
+}
+.i-beta_tag:before {
+	content: "\e101";
+	color:  #0654BA;
 }
 
-.iconGrayShadow {
-	color: #CACACA;
-	text-shadow: -0.02em -0.08em  0.04em #A2A2A2;
-}
+
