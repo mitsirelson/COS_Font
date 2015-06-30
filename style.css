@@ -62,15 +62,19 @@ i {
 }
 .i-warning:before {
 	content: "\e60b";
+	color: #F08D39;
 }
 .i-error:before {
 	content: "\e60d";
+	color: #D34F27;
 }
 .i-info:before {
 	content: "\e60f";
+	color: #1065D2;
 }
 .i-success:before {
 	content: "\e611";
+	color: #5BA731;
 }
 .i-close:before {
 	content: "\e613";
@@ -230,4 +234,24 @@ i {
 }
 .i-news:before {
 	content: "\e91a";
+	
+}
+
+.iconBlue{
+	color: #0AA0FF;
+	text-shadow: -0.04em -0.04em  0.04em #024D7C;	
+}
+
+.iconBlueSelected {
+	color: #004D88;
+		
+}
+
+.iconGray {
+	color: #73797C;
+}
+
+.iconGrayShadow {
+	color: #CACACA;
+	text-shadow: -0.02em -0.08em  0.04em #A2A2A2;
 }
